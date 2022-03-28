@@ -1,0 +1,36 @@
+.title {
+    text-align: left;
+}
+#divMenu {
+    text-align: right;
+    display:inline; 
+}
+#about {
+    text-align: center;
+}
+#menu li {
+    display: inline;
+}
+#services {
+    display: flex;
+}
+.atencionHoraria {
+    font-weight: bold;
+    font-size: 22px;
+    color: red;
+}
+#direccionVeterinaria {
+    display: inherit;
+    text-align: center;
+    vertical-align: super;
+}
+#footer {
+    display: inline-block;
+}
+#divFooter {
+    text-align: center;
+}
+.imgAndP img {
+    height: 300px;
+    width: 250px;
+}
