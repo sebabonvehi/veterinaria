@@ -11,9 +11,6 @@
 #menu li {
     display: inline;
 }
-#services {
-    display: flex;
-}
 .atencionHoraria {
     font-weight: bold;
     font-size: 22px;
@@ -27,10 +24,30 @@
 #footer {
     display: inline-block;
 }
-#divFooter {
+#contact {
     text-align: center;
 }
+#contact {
+    text-align: center;
+}
+.noBackground {
+    background-image: none;
+}
+.imgAndP {
+    width: 33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
 .imgAndP img {
-    height: 300px;
-    width: 250px;
+    width: 100%;
+}
+.imgAndP p {
+    justify-content: center;
+}
+.contenedor-columnas {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
 }
